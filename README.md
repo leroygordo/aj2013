@@ -5,29 +5,29 @@
 
 ## Preparadores:
 
-* **Sección 1:** <a href=""></a> 
+* **Sección 1:** <a href="hancel.gonzalez@gmail.com">Hancel González</a> 
 
- **Aula:** 
+ **Aula:** AUL009
 
- **Consulta:** 
+ **Consulta:** Consultas informales (pasillos o sala de lectura) o previa cita por correo.
+
+ [**Notas**]()
+
+ [Listado]()
+
+* **Sección 2:** <a href="gml.josea2@gmail.com">José Alberto Goncalves</a> 
+
+ **Aula:** AUL010
+
+ **Consulta:** Por correo electrónico.
 
  [**Notas**]()
 
  [Listado]()
 
-* **Sección 2:** <a href=""></a> 
-
- **Aula:** 
-
- **Consulta:** 
-
- [**Notas**]()
-
- [Listado]()
+Los dos preparadores anteriores serán los encargados de dar las clases. No obstante, contarán con los dos siguientes para hacer consultas. Y en general, los cuatro corregirán las entregas de sus proyecto.
  
-* **Sección 3:** <a href=""></a> 
-
- **Aula:** 
+* **Sección 3:** <a href="chinoxyz@gmail.com">José Sánchez</a> 
 
  **Consulta:** 
 
@@ -35,9 +35,7 @@
 
  [Listado]()
 
-* **Sección 4:** <a href=""></a> 
-
- **Aula:** 
+* **Sección 4:** <a href="maik302@gmail.com">Michael Woo</a> 
 
  **Consulta:** 
 
@@ -45,7 +43,7 @@
 
  [Listado]()
 
-También pueden enviar sus dudas por correo.
+También pueden enviar sus dudas por correo. El correo debe ir titulado **CI3725 - Duda**.
 
 ----------
 ## Cronograma:
@@ -76,7 +74,7 @@ Este es el cronograma de preparadurías en caso de que ninguna clase sea suspend
   <tr align="center">
     <th>4</th>
     <td>2013-05-13</td>
-    <td>Equivalencia DFA-RE.<br>Propiedades de la Clausura de los Lenguajes Regulares.<br>Lema de Bombeo para Lenguajes Regulares.</td>
+    <td>Minimización de Autómatas.<br>Equivalencia DFA-RE.<br>Propiedades de la Clausura de los Lenguajes Regulares.<br>Lema de Bombeo para Lenguajes Regulares.</td>
   </tr>
   <tr align="center">
     <th>5</th>
@@ -120,13 +118,14 @@ Este es el cronograma de preparadurías en caso de que ninguna clase sea suspend
   </tr>
 </table>
 
-**Nota:** La planificación puede estar sujeta a cambios. Todo dependerá de que las clases sean suspendidas o no.
+**Nota:** La planificación puede estar sujeta a cambios.
 
 ----------
 
 
 ## Proyecto: 
 
+Interpréte para el lenguaje de programación imperativo **RangeX**. La definición del lenguaje podrá verla en el siguiente <a href="definicion.pdf">vínculo</a>.
 
 Se plantean 4 entregas para el desarrollo de este proyecto:
 
@@ -138,25 +137,25 @@ Se plantean 4 entregas para el desarrollo de este proyecto:
    
   </tr>
   <tr align="center">
-    <td><a href="entrega1.html">Enunciado Entrega 1</a></td>
+    <td><a href="entrega1.pdf">Enunciado Entrega 1</a></td>
     <td>3</td>
     <td>5</td>
     <td>Analizador Lexicográfico</td>
   </tr>
   <tr align="center">
-    <td><a href="entrega2.html">Enunciado Entrega 2</a></td>
+    <td><a href="entrega2.pdf">Enunciado Entrega 2</a></td>
     <td>7</td>
     <td>8</td>
-    <td>Analizador sintáctico con <i>TAD AST</i></td>
+    <td>Analizador sintáctico con Árbol Sintáctico Abstracto (AST)</td>
   </tr>
   <tr align="center">
-    <td><a href="entrega3.html">Enunciado Entrega 3</a></td>
+    <td><a href="entrega3.pdf">Enunciado Entrega 3</a></td>
     <td>9</td>
     <td>7</td>
-    <td><i>TAD SymTable</i> y Verificaciones estáticas</td>
+    <td>Tabla de Símbolos y Verificaciones estáticas</td>
   </tr>
   <tr align="center">
-    <td><a href="entrega4.html">Enunciado Entrega 4</a></td>
+    <td><a href="entrega4.pdf">Enunciado Entrega 4</a></td>
     <td>11</td>
     <td>10</td>
     <td>Verificaciones dinámicas e Interpretador</td>
@@ -177,18 +176,19 @@ Las entregas deben hacerse el día **Viernes** de la semana mencionada antes de 
 
 #### Reglas del Juego:
 
-0. Deben formar equipos de 2 pe*rsonas.
+0. Deben formar equipos de 2 personas.
 1. Cada entrega debe incluir un Makefile, si su proyecto está programado en Haskell.
 2. No debe adjuntar los archivos generados por las librerías usadas. 
-3. Notificar cual librería, en adición a las recomendadas, usó para el desarrollo de su entrega.
+3. Notificar cual librería, en adición a las recomendadas, usó para el desarrollo de su entrega. Esto incluye la versión y si la misma es complicada de instalar, los pasos de instalación.
 4. Asegurese de que su código compile sin errores. Si el mismo no compila, no será corregido.
-5. Debe enviar un correo a su preparador asignado, adjuntando el código fuente en un archivo comprimido **tar.gz** de la siguiente manera: **EXGY.tar.gz** donde X es el número (sin el número cero) de la entrega e Y es el número (con el número cero cuando aplique) del grupo asignado. El correo debe titularse **CI3725 - Entrega X Grupo Y**.
-6. **Regla del Silencio:** 48 horas antes de la entrega de su proyecto no se aceptarán consultas de ningún tipo y bajo ningún medio.
+5. Debe enviar un correo a todos los preparadores, adjuntando el código fuente en un archivo comprimido **tar.gz** de la siguiente manera: **EXGY.tar.gz** donde X es el número (sin el número cero) de la entrega e Y es el número (con el número cero cuando aplique) del grupo asignado. El correo debe titularse **CI3725 - Entrega X Grupo Y**.
+6. **Regla del Silencio:** 12 horas antes de la entrega de su proyecto no se aceptarán consultas de ningún tipo y bajo ningún medio.
 
 ----------
 
-
 ##### Enlaces de interés:
+
+* [Página Oficial del curso de Teoría](http://ldc.usb.ve/~emhn/cursos/ci3725/201304)
 
 * [Haskell](http://www.haskell.org/haskellwiki/Haskell)
 
