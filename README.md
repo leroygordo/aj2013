@@ -1,11 +1,12 @@
 # CI3725
 ## Traductores e Interpretadores
 ----------
-## <a href="noticias.html">Noticias del Curso</a>
+## <a href="Noticias.html">Noticias del Curso</a> 
+### Última noticia: 01/05/2013 a las 01:19am
 
 ## Preparadores:
 
-* **Sección 1:** <a href="<a href="mailto:hancel.gonzalez@gmail.com">Hancel González</a> 
+* **Sección 1:** <a href="mailto:hancel.gonzalez@gmail.com">Hancel González</a> 
 
  **Aula:** AUL009
 
