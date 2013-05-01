@@ -5,7 +5,7 @@
 
 ## Preparadores:
 
-* **Sección 1:** <a href="hancel.gonzalez@gmail.com">Hancel González</a> 
+* **Sección 1:** <a href="<a href="mailto:hancel.gonzalez@gmail.com">Hancel González</a> 
 
  **Aula:** AUL009
 
@@ -15,7 +15,7 @@
 
  [Listado]()
 
-* **Sección 2:** <a href="gml.josea2@gmail.com">José Alberto Goncalves</a> 
+* **Sección 2:** <a href="mailto:gml.josea2@gmail.com">José Alberto Goncalves</a> 
 
  **Aula:** AUL010
 
@@ -27,7 +27,7 @@
 
 Los dos preparadores anteriores serán los encargados de dar las clases. No obstante, contarán con los dos siguientes para hacer consultas. Y en general, los cuatro corregirán las entregas de sus proyecto.
  
-* **Sección 3:** <a href="chinoxyz@gmail.com">José Sánchez</a> 
+* **Sección 3:** <a href="mailto:chinoxyz@gmail.com">José Sánchez</a> 
 
  **Consulta:** 
 
@@ -35,7 +35,7 @@ Los dos preparadores anteriores serán los encargados de dar las clases. No obst
 
  [Listado]()
 
-* **Sección 4:** <a href="maik302@gmail.com">Michael Woo</a> 
+* **Sección 4:** <a href="mailto:maik302@gmail.com">Michael Woo</a> 
 
  **Consulta:** 
 
