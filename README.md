@@ -2,7 +2,7 @@
 ## Traductores e Interpretadores
 ----------
 ## <a href="Noticias.html">Noticias del Curso</a> 
-### Última noticia: 01/05/2013 a las 01:19am
+### Última noticia: 03/05/2013 a las 10:45pm
 
 ## Preparadores:
 
@@ -126,7 +126,7 @@ Este es el cronograma de preparadurías en caso de que ninguna clase sea suspend
 
 ## Proyecto: 
 
-Interpréte para el lenguaje de programación imperativo **RangeX**. La definición del lenguaje podrá verla en el siguiente <a href="definicion.pdf">vínculo</a>.
+Intérprete para el lenguaje de programación imperativo **RangeX**. La definición del lenguaje podrá verla en el siguiente <a href="definicion.pdf">vínculo</a>.
 
 Se plantean 4 entregas para el desarrollo de este proyecto:
 
