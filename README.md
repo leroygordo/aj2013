@@ -2,7 +2,7 @@
 ## Traductores e Interpretadores
 ----------
 ## <a href="Noticias.html">Noticias del Curso</a> 
-### Última noticia: 03/05/2013 a las 10:45pm
+### Última noticia: 04/05/2013 a las 01:30pm
 
 ## Preparadores:
 
