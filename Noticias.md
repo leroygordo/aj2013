@@ -34,7 +34,7 @@ La salida debería ser:
 
 #### 03/05/2013 - 10:45pm
 
-* [Casos de prueba para la primera entrega](casos_prueba_e1.zip)
+* [Casos de prueba para la primera entrega](casos_prueba_e1.tar.gz)
 * Las personas en la **[lista](sin_equipo.txt)** no han dado notificación de equipos.
 
 #### 01/05/2013 - 01:19am
