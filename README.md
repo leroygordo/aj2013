@@ -79,7 +79,7 @@ La salida debería ser:
 
  [**Notas**]()
 
- [Listado](seccion1.txt)
+ [Listado](seccion2.txt)
 
 Los dos preparadores anteriores serán los encargados de dar las clases. No obstante, contarán con los dos siguientes para hacer consultas. Y en general, los cuatro corregirán las entregas de sus proyecto.
  
@@ -89,7 +89,7 @@ Los dos preparadores anteriores serán los encargados de dar las clases. No obst
 
  [**Notas**]()
 
- [Listado](seccion1.txt)
+ [Listado](seccion3.txt)
 
 * **Sección 4:** <a href="mailto:maik302@gmail.com">Michael Woo</a> 
 
@@ -97,7 +97,7 @@ Los dos preparadores anteriores serán los encargados de dar las clases. No obst
 
  [**Notas**]()
 
- [Listado](seccion1.txt)
+ [Listado](seccion4.txt)
 
 También pueden enviar sus dudas por correo. El correo debe ir titulado **CI3725 - Duda**.
 
