@@ -10,43 +10,6 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
-
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-  <p style="text-align: center;">
-   <script>
-      new TWTR.Widget({
-        version: 2,
-        type: 'search',
-        search: '#ci3725',
-        interval: 6000,
-        title: 'Traductores e Interpretadores',
-        subject: 'Abril - Julio 2013',
-        width: 600,
-        height: 150,
-        theme: {
-          shell: {
-            background: '#333333',
-           color: '#ffffff'
-          },
-          tweets: {
-            background: '#000000',
-            color: '#ffffff',
-            links: '#4aed05'
-          }
-        },
-        features: {
-          scrollbar: false,
-          loop: true,
-          live: true,
-          hashtags: true,
-          timestamp: true,
-          avatars: true,
-          toptweets: true,
-          behavior: 'default'
-        }
-      }).render().start();
-    </script>
-
 #### 04/05/2013 - 01:30pm
 
 **Aclaratoria:** En el enunciado de la primera entrega, la salida del primer ejemplo no corresponde en las lineas y columnas; esto es un error en el enunciado pues las lineas y columnas reportadas deben ser relativas al archivo. 
