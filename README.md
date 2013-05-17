@@ -68,7 +68,7 @@ La salida debería ser:
 
  **Consulta:** Consultas informales (pasillos o sala de lectura) o previa cita por correo.
 
- [**Notas**]()
+ [**Notas**](notas1.pdf)
 
  [Listado](seccion1.txt)
 
@@ -78,7 +78,7 @@ La salida debería ser:
 
  **Consulta:** Por correo electrónico.
 
- [**Notas**]()
+ [**Notas**](notas2.pdf)
 
  [Listado](seccion2.txt)
 
@@ -88,7 +88,7 @@ Los dos preparadores anteriores serán los encargados de dar las clases. No obst
 
  **Consulta:** 
 
- [**Notas**]()
+ [**Notas**](http://ldc.usb.ve/~09-10790/notas/notas_traductores_2013_abr_jul.htm)
 
  [Listado](seccion3.txt)
 
@@ -96,7 +96,7 @@ Los dos preparadores anteriores serán los encargados de dar las clases. No obst
 
  **Consulta:** 
 
- [**Notas**]()
+ [**Notas**](notas4.pdf)
 
  [Listado](seccion4.txt)
 
