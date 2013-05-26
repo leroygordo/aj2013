@@ -136,17 +136,17 @@ Este es el cronograma de preparadurías en caso de que ninguna clase sea suspend
   <tr align="center">
     <th>5</th>
     <td>2013-05-20</td>
-    <td>Lenguajes Libres de Contexto.<br>Gramáticas Libres de Contexto.</td>
+    <td>Lenguajes Libres de Contexto.<br>Gramáticas Libres de Contexto.<br>Automátas de Pila (PDA).</td>
   </tr>
   <tr align="center">
     <th>6</th>
     <td>2013-05-27</td>
-    <td>Automátas de Pila (PDA).<br>Equivalencias PDA-GLC y GLC-PDA.<br>Lema de Bombeo para Lenguajes Libres de Contexto.</td>
+    <td>Equivalencias PDA-GLC y GLC-PDA.<br>Gramáticas de Atributos.<br><b>Comentarios acerca de la segunda entrega.</b></td>
   </tr>
   <tr align="center">
     <th>7</th>
     <td>2013-06-03</td>
-    <td>Gramáticas de Atributos.<br><b>Comentarios acerca de la segunda entrega.</b></td>
+    <td>Propiedades de la Clausura de los Lenguajes Libres de Contexto.<br>Lema de Bombeo para Lenguajes Libres de Contexto.</td>
   </tr>
   <tr align="center">
     <th>8</th>
