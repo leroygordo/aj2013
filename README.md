@@ -10,6 +10,10 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 29/05/2013 - 10:05pm
+
+Acá está la **gramática** aumentada con atributos que construyen el AST para [SuperQuery](SuperQuery.pdf). Esperamos sea de ayuda.
+
 #### 04/05/2013 - 01:30pm
 
 **Aclaratoria:** En el enunciado de la primera entrega, la salida del primer ejemplo no corresponde en las lineas y columnas; esto es un error en el enunciado pues las lineas y columnas reportadas deben ser relativas al archivo. 
