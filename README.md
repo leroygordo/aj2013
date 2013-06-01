@@ -10,6 +10,15 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+
+#### 01/06/2013 - 12:30am
+
+Las expresiones que involucren los operadores `construcción ..` `unión +` `intersección <>` y `escala *` no necesariamente deben ir entre paréntesis, es decir, `(a .. b)`  es una expresión válida pero no son obligatorios los paréntesis. Se pueden construir expresiones como las siguientes:
+
+	a = 1..6
+	b = 2..5 + a
+	c = 10 * a <> b
+
 #### 29/05/2013 - 10:05pm
 
 Acá está la **gramática** aumentada con atributos que construyen el AST para [SuperQuery](SuperQuery.pdf). Esperamos sea de ayuda.
