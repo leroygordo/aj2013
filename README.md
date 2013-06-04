@@ -1,14 +1,51 @@
-# CI3725
+# CI3725	
 ## Traductores e Interpretadores
 
 
-### <a href="#noticias">Noticias del Curso</a>
-### <a href="#preparadores">Preparadores</a>
-### <a href="#cronograma">Cronograma</a>
-### <a href="#proyecto">Proyecto</a>
+<table border="1" align="center">
+  <tr align="left">
+    <th>
+        <h3><a href="#noticias">Noticias del Curso</a><br></h3>
+		<h3><a href="#preparadores">Preparadores</a><br></h3>
+		<h3><a href="#cronograma">Cronograma</a><br></h3>
+		<h3><a href="#proyecto">Proyecto</a></h3>
+	</th>
+    <th align="center" width="500">
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23CI3725" data-widget-id="332680065450115073">Tweets sobre "#CI3725"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </th>
+  </tr>
+</table>
 
 ----------
 ## <a name="noticias"></a>Noticias del Curso
+
+#### 03/06/2013 - 11:00pm
+
+Respecto a las precedencias de los operadores, he acá dos ejemplos:
+
+1. Los relacionales deben tener mayor precedencia que los lógicos; por ejemplo, si tuviese una expresión de la siguiente forma:
+
+		a < b and c
+
+	Lo más razonable es que primero se evalúe `a < b` y luego el operado `and`.
+
+2. Pueden asumir las siguientes precedencias de operadores de rangos, ordenadas de menor a mayor precedencia:
+	 	
+		+ (unión)
+		<> (intersección)
+		* (escala)
+		.. (construcción)
+
+	Entonces la siguiente expresión:
+
+		10 * a + b <> 5..6
+
+	Se debe interpretar como:
+
+		(10 * a) + (b <> (5..6))
+
+En próximos anuncios aclararemos la precendencia entre todos los operadores.
 
 
 #### 01/06/2013 - 12:30am

@@ -275,16 +275,50 @@ img {
 <body>
 <h1>CI3725</h1>
 <h2>Traductores e Interpretadores</h2>
-<h3><a href="#noticias">Noticias del Curso</a></h3>
-<h3><a href="#preparadores">Preparadores</a></h3>
-<h3><a href="#cronograma">Cronograma</a></h3>
-<h3><a href="#proyecto">Proyecto</a></h3>
-<hr />
-<h2><a name="noticias"></a>Noticias del Curso</h2>
-
+<table border="1" align="center">
+  <tr align="left">
+    <th>
+        <h3><a href="#noticias">Noticias del Curso</a><br></h3>
+		<h3><a href="#preparadores">Preparadores</a><br></h3>
+		<h3><a href="#cronograma">Cronograma</a><br></h3>
+		<h3><a href="#proyecto">Proyecto</a></h3>
+	</th>
+    <th align="center" width="500">
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23CI3725" data-widget-id="332680065450115073">Tweets sobre "#CI3725"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </th>
+  </tr>
+</table>
+<hr />
+<h2><a name="noticias"></a>Noticias del Curso</h2>
+<h4>03/06/2013 - 11:00pm</h4>
+<p>Respecto a las precedencias de los operadores, he acá dos ejemplos:</p>
+<ol>
+<li>
+<p>Los relacionales deben tener mayor precedencia que los lógicos; por ejemplo, si tuviese una expresión de la siguiente forma:</p>
+<pre><code>a &lt; b and c
+</code></pre>
 
+<p>Lo más razonable es que primero se evalúe <code>a &lt; b</code> y luego el operado <code>and</code>.</p>
+</li>
+<li>
+<p>Pueden asumir las siguientes precedencias de operadores de rangos, ordenadas de menor a mayor precedencia:</p>
+<pre><code>+ (unión)
+&lt;&gt; (intersección)
+* (escala)
+.. (construcción)
+</code></pre>
+
+<p>Entonces la siguiente expresión:</p>
+<pre><code>10 * a + b &lt;&gt; 5..6
+</code></pre>
+
+<p>Se debe interpretar como:</p>
+<pre><code>(10 * a) + (b &lt;&gt; (5..6))
+</code></pre>
+
+</li>
+</ol>
 <h4>01/06/2013 - 12:30am</h4>
 <p>Las expresiones que involucren los operadores <code>construcción ..</code> <code>unión +</code> <code>intersección &lt;&gt;</code> y <code>escala *</code> no necesariamente deben ir entre paréntesis, es decir, <code>(a .. b)</code>  es una expresión válida pero no son obligatorios los paréntesis. Se pueden construir expresiones como las siguientes:</p>
 <pre><code>a = 1..6
