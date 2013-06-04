@@ -20,6 +20,14 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 03/06/2013 - 11:30pm
+
+Consideren las siguientes precedencias entre todos los operadores, de menor a mayor:
+
+- Operadores lógicos.
+- Operadores relacionales y el `>>`.
+- Operadores aritméticos y de rangos.
+
 #### 03/06/2013 - 11:00pm
 
 Respecto a las precedencias de los operadores, he acá dos ejemplos:
