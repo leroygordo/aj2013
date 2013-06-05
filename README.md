@@ -20,6 +20,34 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 04/06/2013 - 10:30pm
+
+Fe de Errata y Aclaratorias:
+
+2. Pueden asumir las siguientes precedencias de operadores de rangos, ordenadas de menor a mayor precedencia:
+	 	
+		<> (intersección)
+		+ (unión)
+		* (escala)
+		.. (construcción)
+
+	Entonces la siguiente expresión:
+
+		10 * a + b <> 5..6
+
+	Se debe interpretar como:
+
+		((10 * a) + b) <> (5..6)
+
+3. No se debe manejar chequeo de tipos, por ejemplo, son válidas expresiones:
+		
+		a = 4 + true
+		if 1 + 3 then 
+			read a
+
+4. Dado que no se chequean tipos, la representación del árbol que utilizan el mismo símbolo para distintos tipos, decidan sólo un nombre en `operador`. Por ejemplo, el `+` se usa para las operaciones de **unión** de rangos y **suma**
+ de enteros, por lo tanto la información en el árbol es  `operador: más` y no  `operador: unión` o `operador: suma`.
+
 #### 03/06/2013 - 11:30pm
 
 Consideren las siguientes precedencias entre todos los operadores, de menor a mayor:

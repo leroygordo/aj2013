@@ -291,6 +291,39 @@ img {
 </table>
 <hr />
 <h2><a name="noticias"></a>Noticias del Curso</h2>
+<h4>04/06/2013 - 10:30pm</h4>
+<p>Fe de Errata y Aclaratorias:</p>
+<ol>
+<li>
+<p>Pueden asumir las siguientes precedencias de operadores de rangos, ordenadas de menor a mayor precedencia:</p>
+<pre><code>&lt;&gt; (intersección)
++ (unión)
+* (escala)
+.. (construcción)
+</code></pre>
+
+<p>Entonces la siguiente expresión:</p>
+<pre><code>10 * a + b &lt;&gt; 5..6
+</code></pre>
+
+<p>Se debe interpretar como:</p>
+<pre><code>((10 * a) + b) &lt;&gt; (5..6)
+</code></pre>
+
+</li>
+<li>
+<p>No se debe manejar chequeo de tipos, por ejemplo, son válidas expresiones:</p>
+<pre><code>a = 4 + true
+if 1 + 3 then 
+    read a
+</code></pre>
+
+</li>
+<li>
+<p>Dado que no se chequean tipos, la representación del árbol que utilizan el mismo símbolo para distintos tipos, decidan sólo un nombre en <code>operador</code>. Por ejemplo, el <code>+</code> se usa para las operaciones de <strong>unión</strong> de rangos y <strong>suma</strong>
+ de enteros, por lo tanto la información en el árbol es  <code>operador: más</code> y no  <code>operador: unión</code> o <code>operador: suma</code>.</p>
+</li>
+</ol>
 <h4>03/06/2013 - 11:30pm</h4>
 <p>Consideren las siguientes precedencias entre todos los operadores, de menor a mayor:</p>
 <ul>
