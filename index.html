@@ -291,6 +291,25 @@ img {
 </table>
 <hr />
 <h2><a name="noticias"></a>Noticias del Curso</h2>
+<h4>06/06/2013 - 6:45pm</h4>
+<p>Para que el <em>sistema de precendencias</em> funcione en su herramienta generadora de analizadores sintácticos es necesario que especifiquen explicitamente el terminal correspondiente al operador. Por ejemplo:</p>
+<p>En vez de tener reglas:</p>
+<pre><code>    E -&gt; E O E
+    O -&gt; + 
+       | -
+       | *
+       | &lt;&gt;
+      ...
+</code></pre>
+
+<p>Cambie las mismas a:</p>
+<pre><code>    E -&gt; E + E
+    E -&gt; E - E
+    E -&gt; E * E
+    E -&gt; E &lt;&gt; E
+    ...
+</code></pre>
+
 <h4>04/06/2013 - 10:30pm</h4>
 <p>Fe de Errata y Aclaratorias:</p>
 <ol>

@@ -20,6 +20,27 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 06/06/2013 - 6:45pm
+
+Para que el *sistema de precendencias* funcione en su herramienta generadora de analizadores sintácticos es necesario que especifiquen explicitamente el terminal correspondiente al operador. Por ejemplo:
+
+En vez de tener reglas:
+
+		E -> E O E
+		O -> + 
+		   | -
+		   | *
+		   | <>
+		  ...
+
+Cambie las mismas a:
+		
+		E -> E + E
+		E -> E - E
+		E -> E * E
+		E -> E <> E
+	    ...
+ 
 #### 04/06/2013 - 10:30pm
 
 Fe de Errata y Aclaratorias:
