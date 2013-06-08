@@ -13,14 +13,44 @@
     <th align="center" width="500">
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23CI3725" data-widget-id="332680065450115073">Tweets sobre "#CI3725"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </th>
+    *</th>
   </tr>
 </table>
 
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
-#### 07/06/2013 - 12:00am
+#### 08/06/2013 - 4:00pm
+
+* Están publicados de nuevo los [casos de prueba](casos_prueba_e2.zip)  para la segunda entrega, los anteriores tenían errores.
+
+* **Precendencias de los operandores:**
+	* Precedencia General (de menor a mayor):
+		- Operadores lógicos.
+		- Operadores relacionales y el `>>` tienen la misma precedencia.
+		- Operadores aritméticos y de rangos tienen la misma precedencia.
+
+	* Precedencia de los operadores lógicos (de menor a mayor):
+		- `or`
+		- `and`
+		- `not`
+	* Precedencia de los operadores relacionales y el `>>` (de menor a mayor):
+		- `>>`
+		- `==`, `/=`
+		- `<`, `<=`, `>`, `>=`
+	* Precedencia de los operadores aritméticos y de rangos (de menor a mayor):
+		- `<>`
+		- `+`, `-`
+		- `*`, `/`, `%`
+		- ..
+		- `-` unario
+
+	**Recordar:**
+	- Puede hacerse uso de paréntesis.
+	- No debe chequearse tipos.
+
+
+#### 08/06/2013 - 12:00am
 
 Están publicados 3 [casos de prueba](casos_prueba_e2.tar.gz) para la segunda entrega con su correspondiente salida.
 
