@@ -20,6 +20,29 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 07/06/2013 - 12:00am
+
+Están publicados 3 [casos de prueba](casos_prueba_e2.tar.gz) para la segunda entrega con su correspondiente salida.
+
+Consideren:
+
+- Las salidas se muestran en un archivo `pX.output`. No obstante, **no se debe** arrojar un archivo de salida. La salida de su analizador sintáctico debe ser por la salida estándar (por pantalla).
+
+- Se cambió la representación de las instrucciones `write` y `writeln`. En vez de decir, por ejemplo:
+
+		WRITE 
+		  expresion: VARIABLE 
+					   nombre: a
+
+	Debe decir:
+
+
+		WRITE 
+		  elemento: VARIABLE 
+					   nombre: a
+
+	Cambiando `expresion` por `elemento` para evitar confusiones.
+
 #### 06/06/2013 - 6:45pm
 
 Para que el *sistema de precendencias* funcione en su herramienta generadora de analizadores sintácticos es necesario que especifiquen explicitamente el terminal correspondiente al operador. Por ejemplo:

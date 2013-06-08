@@ -291,6 +291,29 @@ img {
 </table>
 <hr />
 <h2><a name="noticias"></a>Noticias del Curso</h2>
+<h4>07/06/2013 - 12:00am</h4>
+<p>Están publicados 3 <a href="casos_prueba_e2.tar.gz">casos de prueba</a> para la segunda entrega con su correspondiente salida.</p>
+<p>Consideren:</p>
+<ul>
+<li>
+<p>Las salidas se muestran en un archivo <code>pX.output</code>. No obstante, <strong>no se debe</strong> arrojar un archivo de salida. La salida de su analizador sintáctico debe ser por la salida estándar (por pantalla).</p>
+</li>
+<li>
+<p>Se cambió la representación de las instrucciones <code>write</code> y <code>writeln</code>. En vez de decir, por ejemplo:</p>
+<pre><code>WRITE 
+  expresion: VARIABLE 
+               nombre: a
+</code></pre>
+
+<p>Debe decir:</p>
+<pre><code>WRITE 
+  elemento: VARIABLE 
+               nombre: a
+</code></pre>
+
+<p>Cambiando <code>expresion</code> por <code>elemento</code> para evitar confusiones.</p>
+</li>
+</ul>
 <h4>06/06/2013 - 6:45pm</h4>
 <p>Para que el <em>sistema de precendencias</em> funcione en su herramienta generadora de analizadores sintácticos es necesario que especifiquen explicitamente el terminal correspondiente al operador. Por ejemplo:</p>
 <p>En vez de tener reglas:</p>
