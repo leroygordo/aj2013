@@ -291,6 +291,38 @@ img {
 </table>
 <hr />
 <h2><a name="noticias"></a>Noticias del Curso</h2>
+<h4>09/06/2013 - 9:00pm</h4>
+<p><strong>Postergada la segunda entrega</strong> de su proyecto para <strong>mañana Lunes 10 de Junio antes de las 11:59pm</strong>. Aquellas personas que hicieron su entrega deben tomar en cuenta la observación hecha en el anuncio anterior y volver a enviar su entrega.</p>
+<p>Se está estudiando la posibilidad de un nuevo plazo de entrega, por favor asistan a la preparaduría para saber en que estado se encuentra su entrega.</p>
+<h4>09/06/2013 - 9:00pm</h4>
+<p>La instrucción <code>case</code> necesita de un separador justo al terminar la instrucción para una guardia pues esto ha de crear ambigüedad en la formulación de su gramática. Quedando la definición del <code>case</code> así:</p>
+<h3>Condicional <code>case</code></h3>
+<pre><code>case &lt;expresión int&gt; of
+  &lt;expresión range&gt; -&gt; &lt;instrucción&gt;;
+  &lt;expresión range&gt; -&gt; &lt;instrucción&gt;;
+  ...
+  &lt;expresión range&gt; -&gt; &lt;instrucción&gt;;
+end
+</code></pre>
+
+<p>La expresión del <code>case</code> debe tener tipo <code>int</code> y las expresiones de las guardias deben tener
+tipo <code>range</code>.</p>
+<p>Esta instrucción permite definir rangos y asignar alguna
+instrucción a ejecutar cuando un entero pertenezca a alguno de ellos. Para ejecutarla se
+evalúa la expresión del <code>case</code>, luego se recorre en orden cada una de las expresiones <code>range</code>
+y se evalúan. Cuando el resultado de alguna de las expresiones contenga el entero calculado
+anteriormente, se ejecuta la instrucción asociada. Siempre se evalúan todas las expresiones,
+es posible que los rangos se solapen y que se ejecuten más de una de las instrucciones asociadas.
+Por ejemplo:</p>
+<pre><code>case x of
+    1..4  -&gt; &lt;instrucción 1&gt;;
+    3..10 -&gt; &lt;instrucción 2&gt;;
+end
+</code></pre>
+
+<p>Si <code>x</code> es igual a 1 o 2 sólo se ejecuta la instrucción 1. Si está entre 5 y el 10, sólo se ejecuta
+la instrucción 2. Pero si es igual a 3 o 4, como ambos valores se encuentran en los rangos de
+ambas expresiones, se ejecutan tanto la intrucción 1 como la instrucción 2, en ese orden.</p>
 <h4>08/06/2013 - 4:00pm</h4>
 <ul>
 <li>

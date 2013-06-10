@@ -20,6 +20,45 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 09/06/2013 - 9:00pm
+
+**Postergada la segunda entrega** de su proyecto para **mañana Lunes 10 de Junio antes de las 11:59pm**. Aquellas personas que hicieron su entrega deben tomar en cuenta la observación hecha en el anuncio anterior y volver a enviar su entrega.
+
+Se está estudiando la posibilidad de un nuevo plazo de entrega, por favor asistan a la preparaduría para saber en que estado se encuentra su entrega.
+
+#### 09/06/2013 - 9:00pm
+
+La instrucción `case` necesita de un separador justo al terminar la instrucción para una guardia pues esto ha de crear ambigüedad en la formulación de su gramática. Quedando la definición del `case` así:
+
+### Condicional `case`
+
+    case <expresión int> of
+      <expresión range> -> <instrucción>;
+      <expresión range> -> <instrucción>;
+      ...
+      <expresión range> -> <instrucción>;
+    end
+
+La expresión del `case` debe tener tipo `int` y las expresiones de las guardias deben tener
+tipo `range`.
+
+Esta instrucción permite definir rangos y asignar alguna
+instrucción a ejecutar cuando un entero pertenezca a alguno de ellos. Para ejecutarla se
+evalúa la expresión del `case`, luego se recorre en orden cada una de las expresiones `range`
+y se evalúan. Cuando el resultado de alguna de las expresiones contenga el entero calculado
+anteriormente, se ejecuta la instrucción asociada. Siempre se evalúan todas las expresiones,
+es posible que los rangos se solapen y que se ejecuten más de una de las instrucciones asociadas.
+Por ejemplo:
+
+    case x of
+	    1..4  -> <instrucción 1>;
+		3..10 -> <instrucción 2>;
+	end
+
+Si `x` es igual a 1 o 2 sólo se ejecuta la instrucción 1. Si está entre 5 y el 10, sólo se ejecuta
+la instrucción 2. Pero si es igual a 3 o 4, como ambos valores se encuentran en los rangos de
+ambas expresiones, se ejecutan tanto la intrucción 1 como la instrucción 2, en ese orden.
+
 #### 08/06/2013 - 4:00pm
 
 * Están publicados de nuevo los [casos de prueba](casos_prueba_e2.zip)  para la segunda entrega, los anteriores tenían errores.
