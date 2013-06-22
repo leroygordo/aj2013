@@ -20,6 +20,18 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 22/06/2013 - 3:30pm
+
+Están disponibles los [casos de prueba](casos_prueba_e2.tar.gz) usados para la corrección de la segunda entrega.
+
+**Observaciones:** 
+
+- En p1 cambiar el != por /=
+- En p2 cambiar el != por /=
+- En p3 coloquen ; al final de las instrucciones del case
+- En p3 cambien (i-j .. i+j) por ((i-j) .. (i+j))
+- En p3 cambien b = a + a * - a / a; por b = a + a * a - a / a;
+
 #### 09/06/2013 - 9:00pm
 
 **Postergada la segunda entrega** de su proyecto para **mañana Lunes 10 de Junio antes de las 11:59pm**. Aquellas personas que hicieron su entrega deben tomar en cuenta la observación hecha en el anuncio anterior y volver a enviar su entrega.
