@@ -20,6 +20,14 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 23/06/2013 - 9:45pm
+
+**Aclaratorias:**
+
+- En el caso de prueba `c4.rgx`, recientemente publicado, el primer error no debe ser reportado.
+
+- Verifiquen en principio los errores que se listan en el enunciado. Si hacen otro tipos de verificaciones deben indicarlo en el `LEEME.txt` y puede que sea considerado para una bonificación.
+
 #### 23/06/2013 - 9:00pm
 
 Están disponibles [casos de prueba](casos_prueba_e3.tar.gz) para la tercera entrega  y sus respectivas salidas.  
