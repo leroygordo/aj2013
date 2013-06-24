@@ -20,6 +20,16 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 23/06/2013 - 9:00pm
+
+Están disponibles [casos de prueba](casos_prueba_e3.tar.gz) para la tercera entrega  y sus respectivas salidas.  
+
+**Observaciones:**
+
+- Los casos `p1` y `p2` corresponden a casos válidos sintácticamente. Por lo tanto, sus salidas deben corresponder con la mostrada pero no necesariamente mostrar las variables en el mismo orden.
+
+- Los casos `p3` y `p4` corresponden a casos con errores. Sus salidas no necesariamente deben ser iguales a las mostradas pueden variar dependiendo de su implementación.
+
 #### 22/06/2013 - 3:30pm
 
 Están disponibles los [casos de prueba](casos_prueba_e2.tar.gz) usados para la corrección de la segunda entrega.
