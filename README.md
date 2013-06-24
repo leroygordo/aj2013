@@ -20,6 +20,14 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 24/06/2013 - 1:45pm
+
+**Fe de Errata:**
+
+- El caso de prueba `p2` tiene un error, y es que la variable de la iteración determinada `x1` se declara antes, esto está mal. No obstante, puedo redeclararse dentro de la iteración determinada.
+
+- El caso de prueba `p4` intenta asignar la variable `i` que pertenece a la iteración determinada, esto está mal.
+
 #### 23/06/2013 - 9:45pm
 
 **Aclaratorias:**
