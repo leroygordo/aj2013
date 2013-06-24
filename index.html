@@ -291,6 +291,23 @@ img {
 </table>
 <hr />
 <h2><a name="noticias"></a>Noticias del Curso</h2>
+<h4>24/06/2013 - 6:45pm</h4>
+<p><strong>Anuncio Importante:</strong></p>
+<p>Hubo una tremenda confusión con respecto al alcance de las variables. Consideren este trozo de código en RangeX:</p>
+<pre><code>    program
+    begin
+        declare i as int
+
+        for i in 1..3 do 
+        begin
+            declare i as bool
+            ...
+        end
+    end
+</code></pre>
+
+<p>El código mostrado es totalmente válido. No obstante, si su implementación no contempla las tres declaraciones de la variable <code>i</code>, será válido también. </p>
+<p>Disculpe las molestias que esto causaría.</p>
 <h4>24/06/2013 - 1:45pm</h4>
 <p><strong>Fe de Errata:</strong></p>
 <ul>

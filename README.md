@@ -20,6 +20,27 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 24/06/2013 - 6:45pm
+
+**Anuncio Importante:**
+
+Hubo una tremenda confusión con respecto al alcance de las variables. Consideren este trozo de código en RangeX:
+
+		program
+		begin
+			declare i as int
+			
+			for i in 1..3 do 
+			begin
+				declare i as bool
+				...
+			end
+		end
+
+El código mostrado es totalmente válido. No obstante, si su implementación no contempla las tres declaraciones de la variable `i`, será válido también. 
+
+Disculpe las molestias que esto causaría.
+
 #### 24/06/2013 - 1:45pm
 
 **Fe de Errata:**
