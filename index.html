@@ -291,6 +291,25 @@ img {
 </table>
 <hr />
 <h2><a name="noticias"></a>Noticias del Curso</h2>
+<h4>29/06/2013 - 2:00pm</h4>
+<p>En la última entrega del proyecto se pide reportar los siguientes errores de la verificación dinámica:</p>
+<pre><code>    Error: Intento de división por cero.
+    Error: Resultado no puede representarse en 32 bits.
+</code></pre>
+
+<p>Además de los dos tipos de errores que puedan presentarse, deben reportar el siguiente error:</p>
+<pre><code>    Error: La variable &quot;x&quot; no ha sido inicializada.
+</code></pre>
+
+<p>Error que ocurre cuando se intenta leer una variable que no ha sido inicializada después de haber sido declarada.</p>
+<p>Por otro lado, cuando se consiga el primer error durante la verificación dinámica debe reportarse el mismo y abortar la ejecución del intérprete.</p>
+<p>Finalmente, el reporte de errores de su intérprete será de la siguiente forma:</p>
+<ul>
+<li>Si consigue errores durante el análisis lexicográfico, <strong>debe reportarlos todos</strong> y abortar la ejecución de su intérprete.</li>
+<li>De no existir los anteriores pero sí errores durante el análisis sintáctico, <strong>debe reportar el primero</strong> y abortar la ejecución de su intérprete.</li>
+<li>De no existir los anteriores pero sí errores durante la verificación estática, <strong>debe reportar todos (o la cantidad máxima) los errores</strong> y abortar la ejecución de su intérprete.</li>
+<li>De no existir los anteriores pero sí errores durante la verificación dinámica, <strong>debe reportar el primer error conseguido</strong> y abortar la ejecución de su intérprete.</li>
+</ul>
 <h4>24/06/2013 - 6:45pm</h4>
 <p><strong>Anuncio Importante:</strong></p>
 <p>Hubo una tremenda confusión con respecto al alcance de las variables. Consideren este trozo de código en RangeX:</p>

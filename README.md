@@ -20,6 +20,28 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 29/06/2013 - 2:00pm
+
+En la última entrega del proyecto se pide reportar los siguientes errores de la verificación dinámica:
+
+		Error: Intento de división por cero.
+		Error: Resultado no puede representarse en 32 bits.
+
+Además de los dos tipos de errores que puedan presentarse, deben reportar el siguiente error:
+		
+		Error: La variable "x" no ha sido inicializada.
+
+Error que ocurre cuando se intenta leer una variable que no ha sido inicializada después de haber sido declarada.
+
+Por otro lado, cuando se consiga el primer error durante la verificación dinámica debe reportarse el mismo y abortar la ejecución del intérprete.
+
+Finalmente, el reporte de errores de su intérprete será de la siguiente forma:
+
+- Si consigue errores durante el análisis lexicográfico, **debe reportarlos todos** y abortar la ejecución de su intérprete.
+- De no existir los anteriores pero sí errores durante el análisis sintáctico, **debe reportar el primero** y abortar la ejecución de su intérprete.
+- De no existir los anteriores pero sí errores durante la verificación estática, **debe reportar todos (o la cantidad máxima) los errores** y abortar la ejecución de su intérprete.
+- De no existir los anteriores pero sí errores durante la verificación dinámica, **debe reportar el primer error conseguido** y abortar la ejecución de su intérprete.
+
 #### 24/06/2013 - 6:45pm
 
 **Anuncio Importante:**
