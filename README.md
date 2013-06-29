@@ -20,6 +20,12 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 29/06/2013 - 7:30pm
+
+- Publicados [casos de prueba](casos_prueba_e4.tar.gz) para la Entrega 4. **Recordar** que las salidas NO deben imprimirse en archivos sino por pantalla.
+
+- Respecto al anuncio anterior, una variable es inicializada cuando la misma es asignada justo después de ser declarada o es leída a través de un `read`. Este caso no aplica a las variables del `for` pues la misma no puede asignarse ni formar parte de un `read`.
+
 #### 29/06/2013 - 2:00pm
 
 En la última entrega del proyecto se pide reportar los siguientes errores de la verificación dinámica:
