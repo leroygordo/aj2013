@@ -13,12 +13,16 @@
     <th align="center" width="500">
 <a class="twitter-timeline" href="https://twitter.com/search?q=%23CI3725" data-widget-id="332680065450115073">Tweets sobre "#CI3725"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    *</th>
+    </th>
   </tr>
 </table>
 
 ----------
 ## <a name="noticias"></a>Noticias del Curso
+
+#### 01/07/2013 - 6:00pm
+
+**[Casos de prueba](casos_prueba_correccion_e3.tar.gz)** usados para la corrección de la entrega 3. Los criterios se los dirá su preparador asignado durante la revisión.
 
 #### 29/06/2013 - 7:30pm
 
@@ -447,17 +451,17 @@ Este es el cronograma de preparadurías en caso de que ninguna clase sea suspend
   <tr align="center">
     <th>10</th>
     <td>2013-06-24</td>
-    <td>Máquinas de Turing (MT). <br>MT como: Calculadoras, Reconocedoras y Enumeradoras.<br><b>Comentarios acerca de la cuarta entrega.</b></td>
+    <td>Feriado Nacional</td>
   </tr>
   <tr align="center">
     <th>11</th>
     <td>2013-07-01</td>
-    <td>Lenguajes Recursivos y Recursivamente Enumerables.<br>Propiedades de la Clausura para Lenguajes Recursivos y Recursivamente Enumerables.<br>Problema de la Parada para Máquinas de Turing. </td>
+    <td>Máquinas de Turing (MT). <br>MT como: Calculadoras, Reconocedoras y Enumeradoras.<br>Lenguajes Recursivos y Recursivamente Enumerables.<br><b>Comentarios acerca de la cuarta entrega.</b></td>
   </tr>
   <tr align="center">
     <th>12</th>
     <td>2013-07-08</td>
-    <td>Decidibilidad y Decidibilidad.<br>Complejidad en Tiempo y Espacio.<br>Completitud.</td>
+    <td><br>Propiedades de la Clausura para Lenguajes Recursivos y Recursivamente Enumerables.<br>Problema de la Parada para Máquinas de Turing.<br>Decidibilidad y Decidibilidad.<br>Complejidad en Tiempo y Espacio.<br>Completitud.</td>
   </tr>
 </table>
 
