@@ -20,6 +20,13 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 02/07/2013 - 10:00am
+
+Se define nuevamente el operador *unión* pues la definida en la [definición](definicion.pdf) del RangeX no es consistente. Quedando ahora:
+
+unión (`a + b`) : toma dos expresiones de tipo `range` y produce un `range`
+cuya cota inferior sea igual al mínimo de las cotas inferiores de `a` y `b` y cota superior el máximo de las cotas superiores de `a` y `b`. Por ejemplo: `4..8` + `3..5` = `3..8`.
+
 #### 01/07/2013 - 6:00pm
 
 **[Casos de prueba](casos_prueba_correccion_e3.tar.gz)** usados para la corrección de la entrega 3. Los criterios se los dirá su preparador asignado durante la revisión.
