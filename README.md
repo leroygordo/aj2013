@@ -20,6 +20,10 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 03/07/2013 - 1:00am
+
+Están las [tablas LR(0) Y SLR(1)](parser.pdf) para [miniJSON](gramatica.pdf) y los [pasos de *parseo*](parseo.pdf) de una palabra usando la tabla SLR(1).
+
 #### 02/07/2013 - 10:00am
 
 Se define nuevamente el operador *unión* pues la definida en la [definición](definicion.pdf) del RangeX no es consistente. Quedando ahora:
