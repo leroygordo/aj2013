@@ -20,7 +20,21 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 05/07/2013 - 2:00pm
+
+[Casos de prueba](nuevos_casos_prueba_e4.tar.gz) para su intérprete de RangeX.
+
+**Observaciones:**
+
+- Se actualizaron las salidas de los casos de prueba publicados anteriormente pues ahora se considera la nueva definición del operador *unión* de rangos. 
+
+- Se corrigieron algunos detalles sencillos de los casos de prueba para que hubiera concordancia con las salidas.
+
+- Se publicaron 3 casos de prueba más **sin sus salidas** pues son casos donde hay interacción con un usuario. Los casos son válidos en el análisis lexicográfico, sintáctico y del chequeo estático. La verificación dinámica cambia de acuerdo a los valores introducidos por el usuario.
+
 #### 03/07/2013 - 1:00am
+
+**Ejercicio de la práctica de Tablas LR**
 
 Están las [tablas LR(0) Y SLR(1)](parser.pdf) para [miniJSON](gramatica.pdf) y los [pasos de *parseo*](parseo.pdf) de una palabra usando la tabla SLR(1).
 
