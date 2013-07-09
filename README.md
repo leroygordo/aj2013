@@ -20,6 +20,10 @@
 ----------
 ## <a name="noticias"></a>Noticias del Curso
 
+#### 09/07/2013 - 1:00am
+
+[Casos de prueba](casos_e4.tar.gz) usados para la corrección de su intérprete.
+
 #### 05/07/2013 - 2:00pm
 
 [Casos de prueba](nuevos_casos_prueba_e4.tar.gz) para su intérprete de RangeX.
